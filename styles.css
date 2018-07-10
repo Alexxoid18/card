@@ -1,0 +1,68 @@
+/* add your CSS here */
+body {
+	font-family: 'Slabo 27px', serif;
+}
+
+img {
+	border: 1px solid #d3d3d3;
+}
+
+.container {
+	width: 300px;
+	border: 1px solid #d3d3d3;
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px #d3d3d3;
+	padding: 10px;
+}
+
+.info {
+	width: 280px;
+	border: 1px solid #d3d3d3;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.fact {
+	font-style: italic;
+}
+
+.features {
+	padding: 0;
+}
+
+.features span{
+	font-weight: bold;
+}
+
+.features li {
+	list-style-type: none;
+}
+
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+h3 {
+	opacity: 0.5;
+}
+
+h3:hover {
+	opacity: 1;
+} 
+
+img:hover {
+	border-radius: 70%;
+}
